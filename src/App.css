@@ -1,0 +1,67 @@
+.App {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_body {
+    height: 700px;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px;
+    box-shadow: 0px 0px 20px grey;
+}
+
+.header_name {
+    font-style: italic;
+}
+
+.register_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: fit-content;
+    width: 100%;
+}
+
+.register_fields {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.register_fields input {
+    padding: 1x;
+    width: 100%;
+    font-size: 30px;    
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+}
+
+.register_button {
+    padding: 10px;
+    border-radius:20px;
+    margin-top: 10px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(248, 105, 105);
+}
+
+.register_button:hover {
+    background-color: rgb(252, 144, 144);
+    cursor: pointer;
+}
